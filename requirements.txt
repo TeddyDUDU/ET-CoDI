@@ -1,0 +1,6 @@
+# CPU simulation and figure scripts.
+# Verified on Python 3.10 with numpy 2.2.6, torch 2.4.1, and matplotlib 3.10.9.
+# These lower bounds were not re-tested as a compatibility matrix.
+numpy>=1.24
+torch>=2.0
+matplotlib>=3.6
