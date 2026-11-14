@@ -1,0 +1,48 @@
+mode=ippo, ippo_path=results\exp1_ippo\trained_ippo.pt
+sigma=0.1, T=500, seeds=[2026, 2027, 2028, 2029, 2030]
+
+p_drift=0.0
+  D_t:      mean_final=0.532255  std_final=0.004259
+  D_t_pub:  mean_final=0.532255  std_final=0.004259
+  phi:      mean_final=0.467745  std_final=0.004259
+  Q:     mean_final=0.293917  std_final=0.000951
+  U:     mean_final=0.268419  std_final=0.007405
+  cum_U: mean_final=132.539427  std_final=0.346734
+  (U_qos = U, cum_U_qos = cum_U)
+
+p_drift=0.01
+  D_t:      mean_final=0.756085  std_final=0.004073
+  D_t_pub:  mean_final=0.970910  std_final=0.008888
+  phi:      mean_final=0.029090  std_final=0.008888
+  Q:     mean_final=0.227564  std_final=0.001533
+  U:     mean_final=0.232409  std_final=0.007363
+  cum_U: mean_final=118.610698  std_final=0.907499
+  (U_qos = U, cum_U_qos = cum_U)
+
+p_drift=0.05
+  D_t:      mean_final=0.757013  std_final=0.003595
+  D_t_pub:  mean_final=0.984805  std_final=0.001951
+  phi:      mean_final=0.015195  std_final=0.001951
+  Q:     mean_final=0.226132  std_final=0.001467
+  U:     mean_final=0.231152  std_final=0.007292
+  cum_U: mean_final=114.882843  std_final=0.205276
+  (U_qos = U, cum_U_qos = cum_U)
+
+p_drift=0.1
+  D_t:      mean_final=0.757374  std_final=0.003833
+  D_t_pub:  mean_final=0.984235  std_final=0.003825
+  phi:      mean_final=0.015765  std_final=0.003825
+  Q:     mean_final=0.226175  std_final=0.001290
+  U:     mean_final=0.231278  std_final=0.007586
+  cum_U: mean_final=114.331573  std_final=0.222536
+  (U_qos = U, cum_U_qos = cum_U)
+
+p_drift=0.2
+  D_t:      mean_final=0.757222  std_final=0.003157
+  D_t_pub:  mean_final=0.986328  std_final=0.001789
+  phi:      mean_final=0.013672  std_final=0.001789
+  Q:     mean_final=0.226015  std_final=0.001557
+  U:     mean_final=0.231091  std_final=0.007468
+  cum_U: mean_final=114.049828  std_final=0.206088
+  (U_qos = U, cum_U_qos = cum_U)
+

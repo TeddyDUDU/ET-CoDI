@@ -18,6 +18,6 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Generated outputs. Keep the empty results/ directory.
-results/*
-!results/.gitkeep
+# Generated outputs. Ignore exp1 and exp3 results. Checkpoints are also covered by *.pt.
+results/exp1_ippo/
+results/exp3_train_cm/

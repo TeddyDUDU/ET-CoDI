@@ -1,0 +1,172 @@
+{
+  "scenarios": {
+    "low": {
+      "p_drift": 0.01,
+      "sigma": 0.05,
+      "policies": {
+        "Static-HIS": {
+          "u_mean": 0.24082618960535068,
+          "u_std": 0.0016529680484263973,
+          "cum_u": 120.41309480267537,
+          "move_ops": 0.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        },
+        "IIS": {
+          "u_mean": 0.1464685697723985,
+          "u_std": 0.0006986187910656036,
+          "cum_u": 73.23428488619926,
+          "move_ops": 0.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        },
+        "NIRVANA": {
+          "u_mean": 0.19963118181179,
+          "u_std": 0.0006356471337174129,
+          "cum_u": 99.815590905895,
+          "move_ops": 0.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        },
+        "ET-CoDI": {
+          "u_mean": 0.25928973926324883,
+          "u_std": 0.0009955658407222426,
+          "cum_u": 129.6448696316244,
+          "move_ops": 238.4,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        }
+      }
+    },
+    "med": {
+      "p_drift": 0.05,
+      "sigma": 0.08,
+      "policies": {
+        "Static-HIS": {
+          "u_mean": 0.2299746057193543,
+          "u_std": 0.0004204281591210988,
+          "cum_u": 114.98730285967716,
+          "move_ops": 0.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        },
+        "IIS": {
+          "u_mean": 0.1379173552030398,
+          "u_std": 0.00010930062275426144,
+          "cum_u": 68.9586776015199,
+          "move_ops": 0.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        },
+        "NIRVANA": {
+          "u_mean": 0.19414122680764695,
+          "u_std": 0.00044574181248522297,
+          "cum_u": 97.07061340382347,
+          "move_ops": 0.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        },
+        "ET-CoDI": {
+          "u_mean": 0.25436129616570985,
+          "u_std": 0.0004427014034245436,
+          "cum_u": 127.18064808285492,
+          "move_ops": 183.4,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        }
+      }
+    },
+    "default": {
+      "p_drift": 0.1,
+      "sigma": 0.1,
+      "policies": {
+        "Static-HIS": {
+          "u_mean": 0.22866314549847724,
+          "u_std": 0.00044507251624834325,
+          "cum_u": 114.3315727492386,
+          "move_ops": 0.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        },
+        "IIS": {
+          "u_mean": 0.1368974406146734,
+          "u_std": 0.00011444445363530685,
+          "cum_u": 68.4487203073367,
+          "move_ops": 0.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        },
+        "NIRVANA": {
+          "u_mean": 0.192087975601948,
+          "u_std": 0.00045854916290870263,
+          "cum_u": 96.04398780097401,
+          "move_ops": 0.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        },
+        "ET-CoDI": {
+          "u_mean": 0.2520039481847078,
+          "u_std": 0.0003374406924428702,
+          "cum_u": 126.00197409235389,
+          "move_ops": 171.8,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        }
+      }
+    },
+    "high": {
+      "p_drift": 0.2,
+      "sigma": 0.15,
+      "policies": {
+        "Static-HIS": {
+          "u_mean": 0.22804877140070637,
+          "u_std": 0.00040977036585542815,
+          "cum_u": 114.02438570035318,
+          "move_ops": 0.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        },
+        "IIS": {
+          "u_mean": 0.13641104168786816,
+          "u_std": 6.283154864096618e-05,
+          "cum_u": 68.20552084393408,
+          "move_ops": 0.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        },
+        "NIRVANA": {
+          "u_mean": 0.18849786705172472,
+          "u_std": 0.0004303139065744413,
+          "cum_u": 94.24893352586234,
+          "move_ops": 0.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        },
+        "ET-CoDI": {
+          "u_mean": 0.24534597767987096,
+          "u_std": 0.00047214004041378177,
+          "cum_u": 122.67298883993548,
+          "move_ops": 193.0,
+          "recluster_ops": 0.0,
+          "schedule_ops": 0.0,
+          "ddrs_qs": 0.0
+        }
+      }
+    }
+  }
+}
